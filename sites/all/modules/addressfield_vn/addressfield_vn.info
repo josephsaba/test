@@ -1,0 +1,15 @@
+name = Addressfield Vietnam
+description = This module is a plugin for Addressfield. It provides a user friendly Vietnam address form.
+core = 7.x
+package = Fields
+
+; dependencies
+dependencies[] = ctools
+dependencies[] = addressfield
+
+; Information added by drupal.org packaging script on 2012-07-23
+version = "7.x-1.0-alpha1"
+core = "7.x"
+project = "addressfield_vn"
+datestamp = "1343036479"
+

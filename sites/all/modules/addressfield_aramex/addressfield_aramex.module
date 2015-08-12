@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ *  Defines plugin for MEA and GCC addresses as seen in the aramex api.
+ */
+
+/**
+ * Implements hook_ctools_plugin_directory().
+ */
+function addressfield_aramex_ctools_plugin_directory($module, $plugin) {
+  if ($module == 'addressfield') {
+    return 'plugins/' . $plugin;
+  }
+}
